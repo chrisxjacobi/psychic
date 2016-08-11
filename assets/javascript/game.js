@@ -17,10 +17,11 @@ console.log(computerChoice);
 
 document.onkeyup = function(event) {
     var userChoice = String.fromCharCode(event.keyCode).toLowerCase();
-}
+
+    
 
     if (userChoice === computerChoice) {
-        wins++; alert("You win! Play again");
+        wins++; alert("You win! Play again")
         var winDiv = document.getElementById("win");
         winDiv.innerHTML = "wins: " + wins;
 
@@ -36,7 +37,7 @@ document.onkeyup = function(event) {
  	if (guessesLeft <= 0) {
  		alert("You lose!");
  	}
-
+ }
 
 
 
