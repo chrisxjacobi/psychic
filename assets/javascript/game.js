@@ -18,7 +18,8 @@ console.log(computerChoice);
 document.onkeyup = function(event) {
     var userChoice = String.fromCharCode(event.keyCode).toLowerCase();
 
-    
+    yourGuesses.push(userChoice);
+    document.getElementById("yourGuesses").innerHTML +=  " " + userChoice;
 
     if (userChoice === computerChoice) {
         wins++; alert("You win! Play again")
