@@ -9,8 +9,7 @@ var wins = 0;
 var losses = 0;
 var ties = 0;
 var yourGuesses = [];
-var guessesLeft = 7;
-
+var guessesLeft = 10;
 
 var computerChoice = letter[Math.floor(Math.random() * letter.length)];
 console.log(computerChoice);
@@ -38,7 +37,8 @@ document.onkeyup = function(event) {
  	if (guessesLeft <= 0) {
  		alert("You lose!");
  	}
- }
+
+}
 
 
 

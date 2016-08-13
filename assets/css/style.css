@@ -1,0 +1,27 @@
+body {
+	background-color: #81B264;
+	color: #fff;
+}
+
+header {
+	font-family: Abril Fatface;
+	color: #fff;
+	font-size: 42px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#game p {
+	font-family: Poiret One;
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.container {
+	margin-left: 20px;
+	font-family: Poiret One;
+	font-size: 20px;
+	margin-left: 20px;
+}
